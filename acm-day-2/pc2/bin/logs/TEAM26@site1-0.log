@@ -1,0 +1,572 @@
+170217 190405.016|CONFIG|Thread-3|setFileHandlers|Now logging to /home/pc-65304/桌面/acm-day-2/pc2/bin/logs directory.
+170217 190405.016|INFO|Thread-3|info|
+170217 190405.016|INFO|Thread-3|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 1.7.0_79 build 3850 Linux 3.13.0-24-generic (amd64) 
+170217 190405.016|INFO|Thread-3|info|Login: team26 (aka team26)
+170217 190405.016|INFO|Thread-3|startLog|Working directory is /home/pc-65304/桌面/acm-day-2/pc2/bin
+170217 190405.017|INFO|Thread-3|startLog|Process id is 4210@pc65304-BM1AF-BP1AF-BM6AF
+170217 190405.017|INFO|Thread-3|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+170217 190405.031|INFO|Thread-3|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+170217 190405.150|INFO|Thread-3|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+170217 190405.151|INFO|Thread-3|info|handlePacket end Packet[LOGIN_SUCCESS] #164 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 190405.151|INFO|Thread-3|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #164 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 190638.586|INFO|Thread-4|info| receiveObject(S) start got Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190638.589|INFO|Thread-4|dumpPacket|Packet ADD_SETTING (Seq #201 ) recieveObject
+170217 190638.589|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 190638.590|INFO|Thread-4|dumpPacket|    To: SERVER0 @ site 0
+170217 190638.590|INFO|Thread-4|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+170217 190638.591|INFO|Thread-4|info|handlePacket start Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190638.592|INFO|Thread-4|dumpPacket|Packet ADD_SETTING (Seq #201 ) handlePacket
+170217 190638.592|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 190638.592|INFO|Thread-4|dumpPacket|    To: SERVER0 @ site 0
+170217 190638.592|INFO|Thread-4|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+170217 190638.593|INFO|Thread-4|info|handlePacket end Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190638.593|INFO|Thread-4|info| receiveObject(S) end   got Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190642.040|INFO|Thread-5|info| receiveObject(S) start got Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190642.040|INFO|Thread-5|dumpPacket|Packet ADD_SETTING (Seq #202 ) recieveObject
+170217 190642.040|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 190642.040|INFO|Thread-5|dumpPacket|    To: SERVER0 @ site 0
+170217 190642.040|INFO|Thread-5|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C
+170217 190642.040|INFO|Thread-5|info|handlePacket start Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190642.040|INFO|Thread-5|dumpPacket|Packet ADD_SETTING (Seq #202 ) handlePacket
+170217 190642.041|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 190642.041|INFO|Thread-5|dumpPacket|    To: SERVER0 @ site 0
+170217 190642.041|INFO|Thread-5|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C
+170217 190642.041|INFO|Thread-5|info|handlePacket end Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 190642.041|INFO|Thread-5|info| receiveObject(S) end   got Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191144.752|INFO|Thread-6|info| receiveObject(S) start got Packet[CLOCK_STARTED] #268 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191144.753|INFO|Thread-6|dumpPacket|Packet CLOCK_STARTED (Seq #268 ) recieveObject
+170217 191144.753|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191144.754|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+170217 191144.755|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170217 191144.756|INFO|Thread-6|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170217 191144.757|INFO|Thread-6|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1487329904827,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=48,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=11,HOUR_OF_DAY=11,MINUTE=11,SECOND=44,MILLISECOND=827,ZONE_OFFSET=0,DST_OFFSET=0]
+170217 191144.758|INFO|Thread-6|info|handlePacket start Packet[CLOCK_STARTED] #268 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191144.759|INFO|Thread-6|dumpPacket|Packet CLOCK_STARTED (Seq #268 ) handlePacket
+170217 191144.759|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191144.760|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+170217 191144.761|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170217 191144.761|INFO|Thread-6|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170217 191144.762|INFO|Thread-6|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1487329904827,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=48,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=11,HOUR_OF_DAY=11,MINUTE=11,SECOND=44,MILLISECOND=827,ZONE_OFFSET=0,DST_OFFSET=0]
+170217 191144.764|INFO|Thread-6|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+170217 191144.764|INFO|Thread-6|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #268 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191537.282|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A GNU C++ file: /home/pc-65304/桌面/pa.cpp
+170217 191537.284|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 191537.285|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 191537.313|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #308 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191537.314|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #308 ) recieveObject
+170217 191537.314|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191537.314|INFO|Thread-8|dumpPacket|    To: TEAM26 @ site 1
+170217 191537.314|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 QUEUED_FOR_COMPUTER_JUDGEMENT 3 min 232567ms from TEAM26 @ site 1 id Run-5361890250551848303 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191537.314|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #308 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191537.314|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #308 ) handlePacket
+170217 191537.315|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191537.315|INFO|Thread-8|dumpPacket|    To: TEAM26 @ site 1
+170217 191537.315|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 QUEUED_FOR_COMPUTER_JUDGEMENT 3 min 232567ms from TEAM26 @ site 1 id Run-5361890250551848303 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191537.802|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #312 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191537.802|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #312 ) recieveObject
+170217 191537.803|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191537.803|INFO|Thread-9|dumpPacket|    To: TEAM26 @ site 1
+170217 191537.803|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 191537.803|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Compilation Error-8590186452308396348 id JudgementRecord--5616584222484101431
+170217 191537.803|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED 3 min 232567ms from TEAM26 @ site 1 id Run-5361890250551848303 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191537.804|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #312 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191537.804|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #312 ) handlePacket
+170217 191537.804|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191537.804|INFO|Thread-9|dumpPacket|    To: TEAM26 @ site 1
+170217 191537.805|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 191537.806|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Compilation Error-8590186452308396348 id JudgementRecord--5616584222484101431
+170217 191537.807|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED 3 min 232567ms from TEAM26 @ site 1 id Run-5361890250551848303 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191538.841|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #312 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191539.288|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #308 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191704.720|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A GNU C++ file: /home/pc-65304/桌面/pa.cpp
+170217 191704.722|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 191704.722|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 191704.739|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #330 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191704.740|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #330 ) recieveObject
+170217 191704.740|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191704.741|INFO|Thread-11|dumpPacket|    To: TEAM26 @ site 1
+170217 191704.741|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 QUEUED_FOR_COMPUTER_JUDGEMENT 5 min 319999ms from TEAM26 @ site 1 id Run-4202053020911567998 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191704.741|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #330 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191704.742|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #330 ) handlePacket
+170217 191704.742|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191704.743|INFO|Thread-11|dumpPacket|    To: TEAM26 @ site 1
+170217 191704.743|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 QUEUED_FOR_COMPUTER_JUDGEMENT 5 min 319999ms from TEAM26 @ site 1 id Run-4202053020911567998 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191705.424|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #334 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191705.424|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #334 ) recieveObject
+170217 191705.425|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191705.425|INFO|Thread-12|dumpPacket|    To: TEAM26 @ site 1
+170217 191705.425|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 191705.425|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-6065129694649800229
+170217 191705.425|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED 5 min 319999ms from TEAM26 @ site 1 id Run-4202053020911567998 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191705.426|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #334 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191705.426|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #334 ) handlePacket
+170217 191705.426|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191705.426|INFO|Thread-12|dumpPacket|    To: TEAM26 @ site 1
+170217 191705.426|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 191705.426|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-6065129694649800229
+170217 191705.426|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED 5 min 319999ms from TEAM26 @ site 1 id Run-4202053020911567998 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191706.278|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #334 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191706.703|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #330 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191925.051|INFO|Thread-13|info| receiveObject(S) start got Packet[UPDATE_SETTING] #362 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191925.052|INFO|Thread-13|dumpPacket|Packet UPDATE_SETTING (Seq #362 ) recieveObject
+170217 191925.053|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191925.054|INFO|Thread-13|dumpPacket|    To: SERVER0 @ site 0
+170217 191925.054|INFO|Thread-13|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+170217 191925.055|INFO|Thread-13|info|handlePacket start Packet[UPDATE_SETTING] #362 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191925.055|INFO|Thread-13|dumpPacket|Packet UPDATE_SETTING (Seq #362 ) handlePacket
+170217 191925.056|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191925.056|INFO|Thread-13|dumpPacket|    To: SERVER0 @ site 0
+170217 191925.056|INFO|Thread-13|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+170217 191925.057|INFO|Thread-13|info|handlePacket end Packet[UPDATE_SETTING] #362 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191925.057|INFO|Thread-13|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #362 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 191940.980|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #370 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191940.981|INFO|Thread-14|dumpPacket|Packet RUN_JUDGEMENT (Seq #370 ) recieveObject
+170217 191940.981|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191940.982|INFO|Thread-14|dumpPacket|    To: TEAM26 @ site 1
+170217 191940.982|INFO|Thread-14|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 191940.983|INFO|Thread-14|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE7 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-8850867467748087354
+170217 191940.984|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED 3 min 232567ms from TEAM26 @ site 1 id Run-5361890250551848303 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191940.984|INFO|Thread-14|info|handlePacket start Packet[RUN_JUDGEMENT] #370 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 191940.985|INFO|Thread-14|dumpPacket|Packet RUN_JUDGEMENT (Seq #370 ) handlePacket
+170217 191940.985|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 191940.986|INFO|Thread-14|dumpPacket|    To: TEAM26 @ site 1
+170217 191940.986|INFO|Thread-14|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 191940.987|INFO|Thread-14|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE7 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-8850867467748087354
+170217 191940.987|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED 3 min 232567ms from TEAM26 @ site 1 id Run-5361890250551848303 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 191942.839|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #370 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192145.121|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A GNU C++ file: /home/pc-65304/桌面/pa.cpp
+170217 192145.123|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192145.123|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192145.149|INFO|Thread-16|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #399 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192145.149|INFO|Thread-16|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #399 ) recieveObject
+170217 192145.149|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192145.149|INFO|Thread-16|dumpPacket|    To: TEAM26 @ site 1
+170217 192145.149|INFO|Thread-16|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 16 QUEUED_FOR_COMPUTER_JUDGEMENT 10 min 600408ms from TEAM26 @ site 1 id Run--6518002699286966580 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192145.149|INFO|Thread-16|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #399 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192145.149|INFO|Thread-16|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #399 ) handlePacket
+170217 192145.150|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192145.150|INFO|Thread-16|dumpPacket|    To: TEAM26 @ site 1
+170217 192145.150|INFO|Thread-16|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 16 QUEUED_FOR_COMPUTER_JUDGEMENT 10 min 600408ms from TEAM26 @ site 1 id Run--6518002699286966580 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192145.883|INFO|Thread-17|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #403 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192145.883|INFO|Thread-17|dumpPacket|Packet RUN_JUDGEMENT (Seq #403 ) recieveObject
+170217 192145.883|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192145.883|INFO|Thread-17|dumpPacket|    To: TEAM26 @ site 1
+170217 192145.884|INFO|Thread-17|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192145.884|INFO|Thread-17|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--2901933642200913668
+170217 192145.884|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 16 JUDGED 10 min 600408ms from TEAM26 @ site 1 id Run--6518002699286966580 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192145.884|INFO|Thread-17|info|handlePacket start Packet[RUN_JUDGEMENT] #403 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192145.884|INFO|Thread-17|dumpPacket|Packet RUN_JUDGEMENT (Seq #403 ) handlePacket
+170217 192145.885|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192145.885|INFO|Thread-17|dumpPacket|    To: TEAM26 @ site 1
+170217 192145.885|INFO|Thread-17|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192145.885|INFO|Thread-17|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--2901933642200913668
+170217 192145.885|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 16 JUDGED 10 min 600408ms from TEAM26 @ site 1 id Run--6518002699286966580 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192146.544|INFO|Thread-17|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #403 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192147.040|INFO|Thread-16|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #399 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192449.974|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A GNU C++ file: /home/pc-65304/桌面/pa.cpp
+170217 192449.975|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192449.975|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192449.995|INFO|Thread-19|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #417 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192449.995|INFO|Thread-19|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #417 ) recieveObject
+170217 192449.995|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192449.995|INFO|Thread-19|dumpPacket|    To: TEAM26 @ site 1
+170217 192449.995|INFO|Thread-19|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 19 QUEUED_FOR_COMPUTER_JUDGEMENT 13 min 785258ms from TEAM26 @ site 1 id Run--7619503070368825564 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192449.995|INFO|Thread-19|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #417 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192449.996|INFO|Thread-19|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #417 ) handlePacket
+170217 192449.996|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192449.996|INFO|Thread-19|dumpPacket|    To: TEAM26 @ site 1
+170217 192449.996|INFO|Thread-19|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 19 QUEUED_FOR_COMPUTER_JUDGEMENT 13 min 785258ms from TEAM26 @ site 1 id Run--7619503070368825564 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192450.757|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #421 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192450.757|INFO|Thread-20|dumpPacket|Packet RUN_JUDGEMENT (Seq #421 ) recieveObject
+170217 192450.757|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192450.758|INFO|Thread-20|dumpPacket|    To: TEAM26 @ site 1
+170217 192450.758|INFO|Thread-20|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192450.758|INFO|Thread-20|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--2635435378331468706
+170217 192450.758|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 19 JUDGED 13 min 785258ms from TEAM26 @ site 1 id Run--7619503070368825564 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192450.758|INFO|Thread-20|info|handlePacket start Packet[RUN_JUDGEMENT] #421 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192450.758|INFO|Thread-20|dumpPacket|Packet RUN_JUDGEMENT (Seq #421 ) handlePacket
+170217 192450.758|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192450.758|INFO|Thread-20|dumpPacket|    To: TEAM26 @ site 1
+170217 192450.759|INFO|Thread-20|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192450.759|INFO|Thread-20|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--2635435378331468706
+170217 192450.759|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 19 JUDGED 13 min 785258ms from TEAM26 @ site 1 id Run--7619503070368825564 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192451.432|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #421 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192451.798|INFO|Thread-19|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #417 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192525.106|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A GNU C++ file: /home/pc-65304/桌面/pa.cpp
+170217 192525.107|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #6 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192525.108|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #6 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192525.126|INFO|Thread-22|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #429 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192525.127|INFO|Thread-22|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #429 ) recieveObject
+170217 192525.127|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192525.127|INFO|Thread-22|dumpPacket|    To: TEAM26 @ site 1
+170217 192525.128|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 21 QUEUED_FOR_COMPUTER_JUDGEMENT 13 min 820391ms from TEAM26 @ site 1 id Run--3828955695252400962 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192525.128|INFO|Thread-22|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #429 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192525.128|INFO|Thread-22|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #429 ) handlePacket
+170217 192525.128|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192525.128|INFO|Thread-22|dumpPacket|    To: TEAM26 @ site 1
+170217 192525.129|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 21 QUEUED_FOR_COMPUTER_JUDGEMENT 13 min 820391ms from TEAM26 @ site 1 id Run--3828955695252400962 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192525.893|INFO|Thread-23|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #433 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192525.894|INFO|Thread-23|dumpPacket|Packet RUN_JUDGEMENT (Seq #433 ) recieveObject
+170217 192525.895|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192525.895|INFO|Thread-23|dumpPacket|    To: TEAM26 @ site 1
+170217 192525.896|INFO|Thread-23|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192525.896|INFO|Thread-23|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-6603520935054503841
+170217 192525.897|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 21 JUDGED 13 min 820391ms from TEAM26 @ site 1 id Run--3828955695252400962 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192525.898|INFO|Thread-23|info|handlePacket start Packet[RUN_JUDGEMENT] #433 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192525.898|INFO|Thread-23|dumpPacket|Packet RUN_JUDGEMENT (Seq #433 ) handlePacket
+170217 192525.898|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192525.899|INFO|Thread-23|dumpPacket|    To: TEAM26 @ site 1
+170217 192525.899|INFO|Thread-23|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192525.900|INFO|Thread-23|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-6603520935054503841
+170217 192525.901|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 21 JUDGED 13 min 820391ms from TEAM26 @ site 1 id Run--3828955695252400962 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192526.570|INFO|Thread-23|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #433 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192526.976|INFO|Thread-22|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #429 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192827.146|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A GNU C++ file: /home/pc-65304/桌面/pa.cpp
+170217 192827.147|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #7 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192827.148|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #7 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 192827.167|INFO|Thread-25|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #435 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192827.167|INFO|Thread-25|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #435 ) recieveObject
+170217 192827.167|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192827.167|INFO|Thread-25|dumpPacket|    To: TEAM26 @ site 1
+170217 192827.167|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 22 QUEUED_FOR_COMPUTER_JUDGEMENT 16 min 1002436ms from TEAM26 @ site 1 id Run-1781380921377615488 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192827.167|INFO|Thread-25|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #435 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192827.168|INFO|Thread-25|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #435 ) handlePacket
+170217 192827.168|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192827.168|INFO|Thread-25|dumpPacket|    To: TEAM26 @ site 1
+170217 192827.168|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 22 QUEUED_FOR_COMPUTER_JUDGEMENT 16 min 1002436ms from TEAM26 @ site 1 id Run-1781380921377615488 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192828.065|INFO|Thread-26|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #440 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192828.066|INFO|Thread-26|dumpPacket|Packet RUN_JUDGEMENT (Seq #440 ) recieveObject
+170217 192828.067|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192828.067|INFO|Thread-26|dumpPacket|    To: TEAM26 @ site 1
+170217 192828.068|INFO|Thread-26|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192828.068|INFO|Thread-26|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-514536612572032599 id JudgementRecord-9054744337496365601
+170217 192828.069|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 22 JUDGED 16 min 1002436ms from TEAM26 @ site 1 id Run-1781380921377615488 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192828.069|INFO|Thread-26|info|handlePacket start Packet[RUN_JUDGEMENT] #440 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192828.070|INFO|Thread-26|dumpPacket|Packet RUN_JUDGEMENT (Seq #440 ) handlePacket
+170217 192828.070|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 192828.070|INFO|Thread-26|dumpPacket|    To: TEAM26 @ site 1
+170217 192828.071|INFO|Thread-26|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 192828.071|INFO|Thread-26|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-514536612572032599 id JudgementRecord-9054744337496365601
+170217 192828.072|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 22 JUDGED 16 min 1002436ms from TEAM26 @ site 1 id Run-1781380921377615488 problem A--6241141222231853116 lang GNU C++-162031913540604745
+170217 192828.620|INFO|Thread-26|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #440 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 192829.007|INFO|Thread-25|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #435 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 194314.329|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 194314.330|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #8 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 194314.331|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #8 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 194314.350|INFO|Thread-28|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #536 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 194314.351|INFO|Thread-28|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #536 ) recieveObject
+170217 194314.351|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 194314.351|INFO|Thread-28|dumpPacket|    To: TEAM26 @ site 1
+170217 194314.351|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 38 QUEUED_FOR_COMPUTER_JUDGEMENT 31 min 1889631ms from TEAM26 @ site 1 id Run--5515154186830408204 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 194314.351|INFO|Thread-28|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #536 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 194314.352|INFO|Thread-28|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #536 ) handlePacket
+170217 194314.352|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 194314.352|INFO|Thread-28|dumpPacket|    To: TEAM26 @ site 1
+170217 194314.353|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 38 QUEUED_FOR_COMPUTER_JUDGEMENT 31 min 1889631ms from TEAM26 @ site 1 id Run--5515154186830408204 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 194315.276|INFO|Thread-29|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #540 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 194315.276|INFO|Thread-29|dumpPacket|Packet RUN_JUDGEMENT (Seq #540 ) recieveObject
+170217 194315.277|INFO|Thread-29|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 194315.277|INFO|Thread-29|dumpPacket|    To: TEAM26 @ site 1
+170217 194315.278|INFO|Thread-29|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 194315.279|INFO|Thread-29|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE5 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--2308475798155692359
+170217 194315.280|INFO|Thread-29|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 38 JUDGED 31 min 1889631ms from TEAM26 @ site 1 id Run--5515154186830408204 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 194315.280|INFO|Thread-29|info|handlePacket start Packet[RUN_JUDGEMENT] #540 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 194315.281|INFO|Thread-29|dumpPacket|Packet RUN_JUDGEMENT (Seq #540 ) handlePacket
+170217 194315.282|INFO|Thread-29|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 194315.282|INFO|Thread-29|dumpPacket|    To: TEAM26 @ site 1
+170217 194315.283|INFO|Thread-29|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 194315.284|INFO|Thread-29|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE5 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--2308475798155692359
+170217 194315.285|INFO|Thread-29|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 38 JUDGED 31 min 1889631ms from TEAM26 @ site 1 id Run--5515154186830408204 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 194315.903|INFO|Thread-29|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #540 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 194316.344|INFO|Thread-28|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #536 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195111.436|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 195111.437|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #9 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 195111.437|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #9 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 195111.463|INFO|Thread-31|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #612 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195111.463|INFO|Thread-31|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #612 ) recieveObject
+170217 195111.463|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195111.463|INFO|Thread-31|dumpPacket|    To: TEAM26 @ site 1
+170217 195111.464|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 50 QUEUED_FOR_COMPUTER_JUDGEMENT 39 min 2366743ms from TEAM26 @ site 1 id Run--7685790696957890615 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 195111.464|INFO|Thread-31|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #612 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195111.464|INFO|Thread-31|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #612 ) handlePacket
+170217 195111.464|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195111.465|INFO|Thread-31|dumpPacket|    To: TEAM26 @ site 1
+170217 195111.465|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 50 QUEUED_FOR_COMPUTER_JUDGEMENT 39 min 2366743ms from TEAM26 @ site 1 id Run--7685790696957890615 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 195112.446|INFO|Thread-32|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #616 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195112.447|INFO|Thread-32|dumpPacket|Packet RUN_JUDGEMENT (Seq #616 ) recieveObject
+170217 195112.447|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195112.447|INFO|Thread-32|dumpPacket|    To: TEAM26 @ site 1
+170217 195112.447|INFO|Thread-32|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 195112.447|INFO|Thread-32|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--5528636138333268314
+170217 195112.447|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 50 JUDGED 39 min 2366743ms from TEAM26 @ site 1 id Run--7685790696957890615 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 195112.447|INFO|Thread-32|info|handlePacket start Packet[RUN_JUDGEMENT] #616 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195112.447|INFO|Thread-32|dumpPacket|Packet RUN_JUDGEMENT (Seq #616 ) handlePacket
+170217 195112.447|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195112.448|INFO|Thread-32|dumpPacket|    To: TEAM26 @ site 1
+170217 195112.448|INFO|Thread-32|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 195112.448|INFO|Thread-32|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--5528636138333268314
+170217 195112.448|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 50 JUDGED 39 min 2366743ms from TEAM26 @ site 1 id Run--7685790696957890615 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 195113.105|INFO|Thread-32|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #616 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195113.464|INFO|Thread-31|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #612 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195316.404|INFO|AWT-EventQueue-0|submitClarification|submit clarification for C 請問最後一筆output換行後還需要換行嘛?
+170217 195316.405|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #10 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 195316.405|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #10 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 195316.423|INFO|Thread-34|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #638 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195316.424|INFO|Thread-34|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #638 ) recieveObject
+170217 195316.424|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195316.424|INFO|Thread-34|dumpPacket|    To: TEAM26 @ site 1
+170217 195316.425|INFO|Thread-34|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 NEW from TEAM26 @ site 1 at 41 id=Clarification-1710068309075803216
+170217 195316.425|INFO|Thread-34|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #638 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195316.426|INFO|Thread-34|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #638 ) handlePacket
+170217 195316.426|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195316.426|INFO|Thread-34|dumpPacket|    To: TEAM26 @ site 1
+170217 195316.426|INFO|Thread-34|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 NEW from TEAM26 @ site 1 at 41 id=Clarification-1710068309075803216
+170217 195316.428|INFO|Thread-34|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #638 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195535.508|INFO|Thread-35|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #661 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195535.508|INFO|Thread-35|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #661 ) recieveObject
+170217 195535.508|INFO|Thread-35|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195535.509|INFO|Thread-35|dumpPacket|    To: TEAM26 @ site 1
+170217 195535.509|INFO|Thread-35|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 ANSWERED from TEAM26 @ site 1 at 41 id=Clarification-1710068309075803216
+170217 195535.509|INFO|Thread-35|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170217 195535.509|INFO|Thread-35|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String Please read the problem carefully.
+170217 195535.509|INFO|Thread-35|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #661 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 195535.509|INFO|Thread-35|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #661 ) handlePacket
+170217 195535.509|INFO|Thread-35|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 195535.509|INFO|Thread-35|dumpPacket|    To: TEAM26 @ site 1
+170217 195535.509|INFO|Thread-35|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 ANSWERED from TEAM26 @ site 1 at 41 id=Clarification-1710068309075803216
+170217 195535.510|INFO|Thread-35|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170217 195535.510|INFO|Thread-35|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String Please read the problem carefully.
+170217 195537.947|INFO|Thread-35|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #661 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200010.618|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 200010.620|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #11 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 200010.620|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #11 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 200010.641|INFO|Thread-37|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #713 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200010.641|INFO|Thread-37|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #713 ) recieveObject
+170217 200010.641|INFO|Thread-37|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200010.641|INFO|Thread-37|dumpPacket|    To: TEAM26 @ site 1
+170217 200010.641|INFO|Thread-37|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 64 QUEUED_FOR_COMPUTER_JUDGEMENT 48 min 2905933ms from TEAM26 @ site 1 id Run-83167870911233502 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200010.642|INFO|Thread-37|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #713 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200010.642|INFO|Thread-37|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #713 ) handlePacket
+170217 200010.642|INFO|Thread-37|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200010.642|INFO|Thread-37|dumpPacket|    To: TEAM26 @ site 1
+170217 200010.642|INFO|Thread-37|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 64 QUEUED_FOR_COMPUTER_JUDGEMENT 48 min 2905933ms from TEAM26 @ site 1 id Run-83167870911233502 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200011.215|INFO|Thread-38|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #717 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200011.215|INFO|Thread-38|dumpPacket|Packet RUN_JUDGEMENT (Seq #717 ) recieveObject
+170217 200011.216|INFO|Thread-38|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200011.216|INFO|Thread-38|dumpPacket|    To: TEAM26 @ site 1
+170217 200011.217|INFO|Thread-38|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 200011.217|INFO|Thread-38|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-7243667729661802949
+170217 200011.218|INFO|Thread-38|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 64 JUDGED 48 min 2905933ms from TEAM26 @ site 1 id Run-83167870911233502 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200011.218|INFO|Thread-38|info|handlePacket start Packet[RUN_JUDGEMENT] #717 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200011.219|INFO|Thread-38|dumpPacket|Packet RUN_JUDGEMENT (Seq #717 ) handlePacket
+170217 200011.219|INFO|Thread-38|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200011.220|INFO|Thread-38|dumpPacket|    To: TEAM26 @ site 1
+170217 200011.220|INFO|Thread-38|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 200011.220|INFO|Thread-38|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-7243667729661802949
+170217 200011.220|INFO|Thread-38|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 64 JUDGED 48 min 2905933ms from TEAM26 @ site 1 id Run-83167870911233502 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200012.034|INFO|Thread-38|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #717 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200012.610|INFO|Thread-37|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #713 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200932.972|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 200932.974|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #12 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 200932.975|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #12 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 200932.992|INFO|Thread-40|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #839 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200932.992|INFO|Thread-40|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #839 ) recieveObject
+170217 200932.992|INFO|Thread-40|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200932.992|INFO|Thread-40|dumpPacket|    To: TEAM26 @ site 1
+170217 200932.993|INFO|Thread-40|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 QUEUED_FOR_COMPUTER_JUDGEMENT 57 min 3468294ms from TEAM26 @ site 1 id Run-5695498675170273298 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200932.993|INFO|Thread-40|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #839 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200932.993|INFO|Thread-40|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #839 ) handlePacket
+170217 200932.993|INFO|Thread-40|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200932.993|INFO|Thread-40|dumpPacket|    To: TEAM26 @ site 1
+170217 200932.993|INFO|Thread-40|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 QUEUED_FOR_COMPUTER_JUDGEMENT 57 min 3468294ms from TEAM26 @ site 1 id Run-5695498675170273298 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200933.528|INFO|Thread-41|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #843 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200933.528|INFO|Thread-41|dumpPacket|Packet RUN_JUDGEMENT (Seq #843 ) recieveObject
+170217 200933.528|INFO|Thread-41|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200933.529|INFO|Thread-41|dumpPacket|    To: TEAM26 @ site 1
+170217 200933.529|INFO|Thread-41|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 200933.529|INFO|Thread-41|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--6636506199016501252
+170217 200933.529|INFO|Thread-41|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 JUDGED 57 min 3468294ms from TEAM26 @ site 1 id Run-5695498675170273298 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200933.529|INFO|Thread-41|info|handlePacket start Packet[RUN_JUDGEMENT] #843 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200933.529|INFO|Thread-41|dumpPacket|Packet RUN_JUDGEMENT (Seq #843 ) handlePacket
+170217 200933.529|INFO|Thread-41|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 200933.529|INFO|Thread-41|dumpPacket|    To: TEAM26 @ site 1
+170217 200933.529|INFO|Thread-41|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 200933.530|INFO|Thread-41|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--6636506199016501252
+170217 200933.530|INFO|Thread-41|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 JUDGED 57 min 3468294ms from TEAM26 @ site 1 id Run-5695498675170273298 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 200934.010|INFO|Thread-41|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #843 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 200934.588|INFO|Thread-40|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #839 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 201336.954|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 201336.955|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #13 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 201336.955|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #13 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 201336.982|INFO|Thread-43|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #929 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 201336.983|INFO|Thread-43|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #929 ) recieveObject
+170217 201336.983|INFO|Thread-43|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 201336.983|INFO|Thread-43|dumpPacket|    To: TEAM26 @ site 1
+170217 201336.984|INFO|Thread-43|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 100 QUEUED_FOR_COMPUTER_JUDGEMENT 61 min 3712282ms from TEAM26 @ site 1 id Run--540557716453375778 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 201336.984|INFO|Thread-43|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #929 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 201336.984|INFO|Thread-43|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #929 ) handlePacket
+170217 201336.985|INFO|Thread-43|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 201336.985|INFO|Thread-43|dumpPacket|    To: TEAM26 @ site 1
+170217 201336.985|INFO|Thread-43|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 100 QUEUED_FOR_COMPUTER_JUDGEMENT 61 min 3712282ms from TEAM26 @ site 1 id Run--540557716453375778 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 201337.500|INFO|Thread-44|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #933 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 201337.501|INFO|Thread-44|dumpPacket|Packet RUN_JUDGEMENT (Seq #933 ) recieveObject
+170217 201337.501|INFO|Thread-44|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 201337.501|INFO|Thread-44|dumpPacket|    To: TEAM26 @ site 1
+170217 201337.501|INFO|Thread-44|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 201337.501|INFO|Thread-44|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--203806632463003494
+170217 201337.501|INFO|Thread-44|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 100 JUDGED 61 min 3712282ms from TEAM26 @ site 1 id Run--540557716453375778 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 201337.502|INFO|Thread-44|info|handlePacket start Packet[RUN_JUDGEMENT] #933 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 201337.502|INFO|Thread-44|dumpPacket|Packet RUN_JUDGEMENT (Seq #933 ) handlePacket
+170217 201337.502|INFO|Thread-44|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 201337.502|INFO|Thread-44|dumpPacket|    To: TEAM26 @ site 1
+170217 201337.502|INFO|Thread-44|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 201337.502|INFO|Thread-44|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--203806632463003494
+170217 201337.502|INFO|Thread-44|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 100 JUDGED 61 min 3712282ms from TEAM26 @ site 1 id Run--540557716453375778 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 201339.228|INFO|Thread-44|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #933 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 201339.594|INFO|Thread-43|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #929 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203708.205|INFO|Thread-45|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #1372 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 203708.206|INFO|Thread-45|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #1372 ) recieveObject
+170217 203708.206|INFO|Thread-45|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203708.207|INFO|Thread-45|dumpPacket|    To: SERVER0 @ site 0
+170217 203708.207|INFO|Thread-45|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 6 ANSWERED from TEAM44 @ site 1 at 82 id=Clarification-6216430528323034759
+170217 203708.208|INFO|Thread-45|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE7 @ site 1
+170217 203708.208|INFO|Thread-45|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String 一個輸出一行，結束沒有空行
+170217 203708.208|INFO|Thread-45|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #1372 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 203708.209|INFO|Thread-45|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #1372 ) handlePacket
+170217 203708.209|INFO|Thread-45|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203708.210|INFO|Thread-45|dumpPacket|    To: SERVER0 @ site 0
+170217 203708.210|INFO|Thread-45|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 6 ANSWERED from TEAM44 @ site 1 at 82 id=Clarification-6216430528323034759
+170217 203708.210|INFO|Thread-45|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE7 @ site 1
+170217 203708.211|INFO|Thread-45|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String 一個輸出一行，結束沒有空行
+170217 203711.472|INFO|Thread-45|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #1372 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 203843.283|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for B GNU C++ file: /home/pc-65304/桌面/pb.cpp
+170217 203843.284|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #14 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 203843.284|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #14 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 203843.317|INFO|Thread-47|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1423 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203843.317|INFO|Thread-47|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1423 ) recieveObject
+170217 203843.317|INFO|Thread-47|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203843.317|INFO|Thread-47|dumpPacket|    To: TEAM26 @ site 1
+170217 203843.317|INFO|Thread-47|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 177 QUEUED_FOR_COMPUTER_JUDGEMENT 86 min 5218633ms from TEAM26 @ site 1 id Run--2402919779050195715 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203843.317|INFO|Thread-47|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1423 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203843.318|INFO|Thread-47|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1423 ) handlePacket
+170217 203843.318|INFO|Thread-47|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203843.318|INFO|Thread-47|dumpPacket|    To: TEAM26 @ site 1
+170217 203843.318|INFO|Thread-47|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 177 QUEUED_FOR_COMPUTER_JUDGEMENT 86 min 5218633ms from TEAM26 @ site 1 id Run--2402919779050195715 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203844.490|INFO|Thread-48|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1433 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203844.490|INFO|Thread-48|dumpPacket|Packet RUN_JUDGEMENT (Seq #1433 ) recieveObject
+170217 203844.490|INFO|Thread-48|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203844.491|INFO|Thread-48|dumpPacket|    To: TEAM26 @ site 1
+170217 203844.491|INFO|Thread-48|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 203844.492|INFO|Thread-48|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE5 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--7842316849234552638
+170217 203844.492|INFO|Thread-48|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 177 JUDGED 86 min 5218633ms from TEAM26 @ site 1 id Run--2402919779050195715 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203844.492|INFO|Thread-48|info|handlePacket start Packet[RUN_JUDGEMENT] #1433 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203844.493|INFO|Thread-48|dumpPacket|Packet RUN_JUDGEMENT (Seq #1433 ) handlePacket
+170217 203844.493|INFO|Thread-48|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203844.494|INFO|Thread-48|dumpPacket|    To: TEAM26 @ site 1
+170217 203844.494|INFO|Thread-48|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 203844.494|INFO|Thread-48|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE5 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord--7842316849234552638
+170217 203844.495|INFO|Thread-48|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 177 JUDGED 86 min 5218633ms from TEAM26 @ site 1 id Run--2402919779050195715 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203845.228|INFO|Thread-48|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1433 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203845.859|INFO|Thread-47|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1423 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203950.877|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for B GNU C++ file: /home/pc-65304/桌面/pb.cpp
+170217 203950.879|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #15 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 203950.880|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #15 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 203950.909|INFO|Thread-50|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1486 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203950.909|INFO|Thread-50|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1486 ) recieveObject
+170217 203950.910|INFO|Thread-50|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203950.910|INFO|Thread-50|dumpPacket|    To: TEAM26 @ site 1
+170217 203950.910|INFO|Thread-50|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 187 QUEUED_FOR_COMPUTER_JUDGEMENT 88 min 5286229ms from TEAM26 @ site 1 id Run-7844118942261944686 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203950.911|INFO|Thread-50|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1486 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203950.911|INFO|Thread-50|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1486 ) handlePacket
+170217 203950.911|INFO|Thread-50|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203950.912|INFO|Thread-50|dumpPacket|    To: TEAM26 @ site 1
+170217 203950.912|INFO|Thread-50|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 187 QUEUED_FOR_COMPUTER_JUDGEMENT 88 min 5286229ms from TEAM26 @ site 1 id Run-7844118942261944686 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203951.587|INFO|Thread-51|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1490 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203951.588|INFO|Thread-51|dumpPacket|Packet RUN_JUDGEMENT (Seq #1490 ) recieveObject
+170217 203951.588|INFO|Thread-51|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203951.589|INFO|Thread-51|dumpPacket|    To: TEAM26 @ site 1
+170217 203951.590|INFO|Thread-51|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 203951.590|INFO|Thread-51|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE4 @ site 1 judgement Yes-514536612572032599 id JudgementRecord--4110364507430646194
+170217 203951.591|INFO|Thread-51|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 187 JUDGED 88 min 5286229ms from TEAM26 @ site 1 id Run-7844118942261944686 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203951.592|INFO|Thread-51|info|handlePacket start Packet[RUN_JUDGEMENT] #1490 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203951.592|INFO|Thread-51|dumpPacket|Packet RUN_JUDGEMENT (Seq #1490 ) handlePacket
+170217 203951.593|INFO|Thread-51|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 203951.594|INFO|Thread-51|dumpPacket|    To: TEAM26 @ site 1
+170217 203951.594|INFO|Thread-51|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 203951.595|INFO|Thread-51|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE4 @ site 1 judgement Yes-514536612572032599 id JudgementRecord--4110364507430646194
+170217 203951.596|INFO|Thread-51|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 187 JUDGED 88 min 5286229ms from TEAM26 @ site 1 id Run-7844118942261944686 problem B-2210666279894129597 lang GNU C++-162031913540604745
+170217 203952.213|INFO|Thread-51|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1490 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 203952.643|INFO|Thread-50|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1486 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210441.408|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 210441.410|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #16 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 210441.411|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #16 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 210441.449|INFO|Thread-53|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2267 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210441.450|INFO|Thread-53|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2267 ) recieveObject
+170217 210441.450|INFO|Thread-53|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210441.451|INFO|Thread-53|dumpPacket|    To: TEAM26 @ site 1
+170217 210441.452|INFO|Thread-53|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 307 QUEUED_FOR_COMPUTER_JUDGEMENT 112 min 6776784ms from TEAM26 @ site 1 id Run-6093244128191977460 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210441.452|INFO|Thread-53|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2267 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210441.453|INFO|Thread-53|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2267 ) handlePacket
+170217 210441.454|INFO|Thread-53|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210441.454|INFO|Thread-53|dumpPacket|    To: TEAM26 @ site 1
+170217 210441.455|INFO|Thread-53|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 307 QUEUED_FOR_COMPUTER_JUDGEMENT 112 min 6776784ms from TEAM26 @ site 1 id Run-6093244128191977460 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210442.060|INFO|Thread-54|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2271 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210442.060|INFO|Thread-54|dumpPacket|Packet RUN_JUDGEMENT (Seq #2271 ) recieveObject
+170217 210442.061|INFO|Thread-54|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210442.061|INFO|Thread-54|dumpPacket|    To: TEAM26 @ site 1
+170217 210442.062|INFO|Thread-54|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 210442.062|INFO|Thread-54|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-8818012776346367095
+170217 210442.063|INFO|Thread-54|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 307 JUDGED 112 min 6776784ms from TEAM26 @ site 1 id Run-6093244128191977460 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210442.064|INFO|Thread-54|info|handlePacket start Packet[RUN_JUDGEMENT] #2271 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210442.064|INFO|Thread-54|dumpPacket|Packet RUN_JUDGEMENT (Seq #2271 ) handlePacket
+170217 210442.065|INFO|Thread-54|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210442.066|INFO|Thread-54|dumpPacket|    To: TEAM26 @ site 1
+170217 210442.066|INFO|Thread-54|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 210442.067|INFO|Thread-54|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE4 @ site 1 judgement No - Wrong Answer--5081699565526526792 id JudgementRecord-8818012776346367095
+170217 210442.068|INFO|Thread-54|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 307 JUDGED 112 min 6776784ms from TEAM26 @ site 1 id Run-6093244128191977460 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210442.662|INFO|Thread-54|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2271 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210442.981|INFO|Thread-53|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2267 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210942.160|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C GNU C++ file: /home/pc-65304/桌面/pc.cpp
+170217 210942.162|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #17 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 210942.162|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #17 TEAM26 @ site 1 -> SERVER0 @ site 1
+170217 210942.204|INFO|Thread-56|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2368 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210942.205|INFO|Thread-56|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2368 ) recieveObject
+170217 210942.205|INFO|Thread-56|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210942.206|INFO|Thread-56|dumpPacket|    To: TEAM26 @ site 1
+170217 210942.207|INFO|Thread-56|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 323 QUEUED_FOR_COMPUTER_JUDGEMENT 117 min 7077542ms from TEAM26 @ site 1 id Run--5998411764846480489 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210942.207|INFO|Thread-56|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2368 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210942.208|INFO|Thread-56|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2368 ) handlePacket
+170217 210942.209|INFO|Thread-56|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210942.209|INFO|Thread-56|dumpPacket|    To: TEAM26 @ site 1
+170217 210942.210|INFO|Thread-56|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 323 QUEUED_FOR_COMPUTER_JUDGEMENT 117 min 7077542ms from TEAM26 @ site 1 id Run--5998411764846480489 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210942.690|INFO|Thread-57|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2372 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210942.690|INFO|Thread-57|dumpPacket|Packet RUN_JUDGEMENT (Seq #2372 ) recieveObject
+170217 210942.691|INFO|Thread-57|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210942.691|INFO|Thread-57|dumpPacket|    To: TEAM26 @ site 1
+170217 210942.691|INFO|Thread-57|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 210942.691|INFO|Thread-57|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE5 @ site 1 judgement Yes-514536612572032599 id JudgementRecord-1884997891456536578
+170217 210942.691|INFO|Thread-57|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 323 JUDGED 117 min 7077542ms from TEAM26 @ site 1 id Run--5998411764846480489 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210942.691|INFO|Thread-57|info|handlePacket start Packet[RUN_JUDGEMENT] #2372 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210942.691|INFO|Thread-57|dumpPacket|Packet RUN_JUDGEMENT (Seq #2372 ) handlePacket
+170217 210942.691|INFO|Thread-57|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 210942.691|INFO|Thread-57|dumpPacket|    To: TEAM26 @ site 1
+170217 210942.692|INFO|Thread-57|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170217 210942.692|INFO|Thread-57|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE5 @ site 1 judgement Yes-514536612572032599 id JudgementRecord-1884997891456536578
+170217 210942.692|INFO|Thread-57|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 323 JUDGED 117 min 7077542ms from TEAM26 @ site 1 id Run--5998411764846480489 problem C-631763551279222310 lang GNU C++-162031913540604745
+170217 210943.334|INFO|Thread-57|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2372 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 210944.094|INFO|Thread-56|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2368 SERVER0 @ site 1 -> TEAM26 @ site 1
+170217 211146.342|INFO|Thread-58|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #2447 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 211146.343|INFO|Thread-58|dumpPacket|Packet CLOCK_STOPPED (Seq #2447 ) recieveObject
+170217 211146.343|INFO|Thread-58|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 211146.344|INFO|Thread-58|dumpPacket|    To: SERVER0 @ site 0
+170217 211146.344|INFO|Thread-58|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170217 211146.345|INFO|Thread-58|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170217 211146.345|INFO|Thread-58|info|handlePacket start Packet[CLOCK_STOPPED] #2447 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 211146.346|INFO|Thread-58|dumpPacket|Packet CLOCK_STOPPED (Seq #2447 ) handlePacket
+170217 211146.346|INFO|Thread-58|dumpPacket|  From: SERVER0 @ site 1 (pc65304-BM1AF-BP1AF-BM6AF @ 127.0.1.1) (Contest Id: Default--8846158816767237246)
+170217 211146.347|INFO|Thread-58|dumpPacket|    To: SERVER0 @ site 0
+170217 211146.347|INFO|Thread-58|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170217 211146.348|INFO|Thread-58|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170217 211146.348|INFO|Thread-58|info|Clock for site 1 stopped by ADMINISTRATOR1 @ site 1 elapsed 2:00:01
+170217 211146.349|INFO|Thread-58|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #2447 SERVER0 @ site 1 -> SERVER0 @ site 0
+170217 213939.486|INFO|Thread-1|info|connectionDropped: shutting down TEAM26 @ site 1

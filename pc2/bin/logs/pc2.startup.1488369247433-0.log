@@ -1,0 +1,20 @@
+170301 195407.441|CONFIG|main|setFileHandlers|Now logging to /home/pc-65304/桌面/pc2/bin/logs directory.
+170301 195407.442|INFO|main|info|
+170301 195407.444|INFO|main|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 1.7.0_79 build 3850 Linux 3.13.0-24-generic (amd64) 
+170301 195407.445|INFO|main|startLog|Working directory is /home/pc-65304/桌面/pc2/bin
+170301 195407.449|INFO|main|startLog|Process id is 3508@pc65304-BM1AF-BP1AF-BM6AF
+170301 195407.449|INFO|main|start|Starting ConnectionManager...
+170301 195407.481|INFO|main|start|Started ConnectionManager
+170301 195407.483|INFO|main|setClientServerAndPort|INIFile File location: file:/home/pc-65304/桌面/pc2/bin/pc2v9.ini
+170301 195407.483|INFO|main|setClientServerAndPort|setClientServerAndPort 192.168.34.117 parsed as 192.168.34.117 port 50002
+170301 195407.483|INFO|main|info|Contacting server at 192.168.34.117:50002
+170301 195407.483|INFO|main|connectToMyServer|Connecting to 192.168.34.117:50002
+170301 195410.486|INFO|main|<init>|IO Exception:192.168.34.117
+170301 195410.487|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+170301 195410.488|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException: 找不到通往該主機的路由路徑
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2664)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+170301 195410.490|INFO|main|info|Unable to contact server at 192.168.34.117:0 找不到通往該主機的路由路徑

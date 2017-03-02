@@ -1,0 +1,45 @@
+170301 195626.265|CONFIG|main|setFileHandlers|Now logging to /home/pc-65304/桌面/pc2/bin/logs directory.
+170301 195626.266|INFO|main|info|
+170301 195626.268|INFO|main|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 1.7.0_79 build 3850 Linux 3.13.0-24-generic (amd64) 
+170301 195626.269|INFO|main|startLog|Working directory is /home/pc-65304/桌面/pc2/bin
+170301 195626.273|INFO|main|startLog|Process id is 3619@pc65304-BM1AF-BP1AF-BM6AF
+170301 195626.273|INFO|main|start|Starting ConnectionManager...
+170301 195626.305|INFO|main|start|Started ConnectionManager
+170301 195626.307|INFO|main|setClientServerAndPort|INIFile File location: file:/home/pc-65304/桌面/pc2/bin/pc2v9.ini
+170301 195626.307|INFO|main|setClientServerAndPort|setClientServerAndPort 192.168.34.11 parsed as 192.168.34.11 port 50002
+170301 195626.307|INFO|main|info|Contacting server at 192.168.34.11:50002
+170301 195626.307|INFO|main|connectToMyServer|Connecting to 192.168.34.11:50002
+170301 195626.388|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/192.168.34.11,port=50002,localport=47477]-2467141522082784672)
+170301 195626.431|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/192.168.34.11,port=50002,localport=47477]-2467141522082784672 key is com.sun.crypto.provider.DESKey@fffe7bfc
+170301 195626.431|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170301 195626.432|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    6c023995 633d1799 0f53933d 75cfa3c4 8410eb5e de59fa50 d953864b 6e359876
+    ec069beb 2d266253 a8578d96 2c4d6a8e 48f07640 45dbbfb1 97633c51 bf252de1
+    ff84270a 1b722e06 4b8dba46 6559ad9a 34237779 dcdf3081 27e304be 9e2a75c0
+    2d778fd1 86082b24 9283c7dc 3600e49f eb45df2e fba8a176 3739bdd9 211bd8c5
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170301 195626.432|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@759e0c2
+170301 210830.484|INFO|Thread-1|receive|EOFException in receive for Socket[addr=/192.168.34.11,port=50002,localport=47477]-2467141522082784672
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:2598)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1318)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:370)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+170301 210830.486|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:158)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+170301 210830.487|FINER|Thread-1|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:158)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
